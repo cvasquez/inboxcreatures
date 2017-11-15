@@ -1,2 +1,4 @@
-# inboxcreatures
-The source for Inbox Creatures, a virtual bet for email.
+# Inbox Creatures
+The source for Inbox Creatures, a virtual pet for email.
+
+aweber.design/inboxpal
