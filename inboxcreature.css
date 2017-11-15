@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #EEE;
+  color: #367;
+  font-family: 'Helvetica', arial, sans-serif;
+  margin: 0 20px 30px;
+  padding: 0;
+  text-align: center;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: 400;
+  margin: 0;
+  position: relative;
+}
+
+.day {
+  background: #367;
+  border-radius: 12px;
+  bottom: 5px;
+  color: #FFF;
+  display: inline-block;
+  font-size: 14px;
+  padding: 3px 9px;
+  position: relative;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+p {
+  line-height: 1.5;
+}
+
+img {
+  display: inline-block;
+  height: auto;
+  margin: 0;
+  max-width: 500px;
+  width: 100%;
+
+}
+
+form {
+  margin: 30px auto 0;
+  max-width: 360px;
+  text-align: left;
+}
+
+label {
+  display: block;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+input[type="text"] {
+  border: 1px solid #ABC;
+  border-radius: 6px;
+  padding: 10px 7px;
+  width: 100%;
+}
+
+input[type="submit"] {
+  background: #368;
+  border: 0;
+  border-radius: 9px;
+  color: #FFF;
+  cursor: pointer;
+  display: block;
+  font-family: 'Helvetica', arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 15px;
+  padding: 12px 10px;
+  transition-duration: 0.3s;
+  width: 100%;
+}
+
+input[type="submit"]:hover {
+  background: #257;
+}
+
+hr {
+  border: none;
+  border-bottom: 1px dashed #ABC;
+  margin: 20px 0;
+}
+
+.grid {
+  background: #FFF;
+  border-bottom: 12px solid #367;
+  border-radius: 0 0 6px 6px;
+  display: flex;
+  margin: 0 auto;
+  max-width: 580px;
+  text-align: center;
+  width: 100%;
+}
+
+.col {
+  width: 100%;
+}
+
+.col__header {
+  max-width: 100%;
+  width: 100%;
+}
+
+.col__content {
+  padding: 30px 40px;
+}
+
+.col__content--notop {
+  padding-top: 0;
+}
+
+.logo {
+  max-width: 100px;
+}
+
+.prevAction {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 10px auto;
+}
+
+.prevAction img {
+  height: auto;
+  margin: 5px;
+  width: 80px;
+}
+
+.shadow {
+  height: auto;
+  max-width: 100%;
+  width: 300px;
+}
+
+.footer {
+  margin: 20px auto 0;
+  max-width: 280px;
+  text-align: center;
+  width: 100%;
+}
